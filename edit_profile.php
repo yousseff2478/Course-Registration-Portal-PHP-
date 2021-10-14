@@ -206,7 +206,7 @@
                                 <div class="form-body">
                                     <span id="sprytextfield2">
                                       <label for="Firstname">Surname</label>
-                                      <input type="text" name="surname" id="Firstname" class="form-control" value="<?php echo $rows['surname']; ?>" disabled="disabled">
+                                      <input type="text" name="surname" id="Firstname" class="form-control" value="<?php echo $rows['surname']; ?>" readonly>
                                       <span class="textfieldRequiredMsg">Please enter your surname name.</span>
                                     </span> 
                                 </div>
@@ -216,7 +216,7 @@
                                 <div class="form-body">
                                   <span id="sprytextfield3">
                                     <label for="Othername">Other Names</label>
-                                    <input type="text" name="othername" id="Othername" class="form-control" value="<?php echo $rows['othername']; ?>" disabled="disabled">
+                                    <input type="text" name="othername" id="Othername" class="form-control" value="<?php echo $rows['othername']; ?>" readonly>
                                   <span class="textfieldRequiredMsg">Please enter your other names.</span></span> 
                                 </div>
                             </div>
@@ -224,21 +224,21 @@
                             <div class="col-sm-3">
                                 <div class="form-body">
                                     <label for="level">Level</label>
-                                    <input type="text" name="level" class="form-control" id="level" disabled="disabled" value="<?php echo $rows['level']; ?>">
+                                    <input type="text" name="level" class="form-control" id="level" readonly value="<?php echo $rows['level']; ?>">
                                 </div>
                             </div>
 
                             <div class="col-sm-3">
                                 <div class="form-body">
                                     <label for="">Program</label>
-                                    <input type="text" name="program" class="form-control" id="program" disabled="disabled" value="<?php echo $rows['program']; ?>">
+                                    <input type="text" name="program" class="form-control" id="program" readonly value="<?php echo $rows['program']; ?>">
                                 </div>
                             </div>
 
                             <div class="col-sm-3">
                                 <div class="form-body">
                                     <label for="faculty">Faculty</label>
-                                    <input type="text" name="faculty" class="form-control" id="faculty" disabled="disabled" value="<?php echo $rows['faculty']; ?>">
+                                    <input type="text" name="faculty" class="form-control" id="faculty" readonly value="<?php echo $rows['faculty']; ?>">
                                 </div>
                             </div>
 
@@ -256,7 +256,7 @@
                             <div class="col-sm-6">
                                 <div class="form-body">
                                     <label for="department">Department</label>
-                                    <input type="text" name="department" class="form-control" id="department" disabled="disabled" value="<?php echo $rows['department']; ?>">
+                                    <input type="text" name="department" class="form-control" id="department" readonly value="<?php echo $rows['department']; ?>">
                                 </div>
                             </div>
 
